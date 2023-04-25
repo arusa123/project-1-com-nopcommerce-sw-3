@@ -240,5 +240,10 @@ public class ElectronicsTest extends Utilities {
         System.out.println(actualUrl);
 
     }
+    @After
+    public void closeBrowser23() {
+        closeBrowser();
+    }
+   
 
 }
